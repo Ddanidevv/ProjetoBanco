@@ -9,12 +9,12 @@ public class TesteConta {
         cc.numero = 1234;
 
         cc.depositar(1000);
-        System.out.println(cc.verificaSaldo());
+        System.out.println(cc.getSaldo());
 
 
         Conta poupanca = new Conta(111,222,100);
         poupanca.retirar(50);
 
-        System.out.println(poupanca.verificaSaldo());
+        System.out.println(poupanca.getSaldo());
     }
 }
